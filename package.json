@@ -1,7 +1,6 @@
 {
   "name": "@tumes/astro-cloudflare-access",
   "version": "0.0.1",
-  "private": true,
   "description": "An Astro integration for Cloudflare Access identity context",
   "keywords": [
     "utility",
