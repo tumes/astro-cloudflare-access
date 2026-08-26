@@ -34,13 +34,13 @@ import { defineConfig } from 'astro/config';
 import cloudflareAccess from 'astro-cloudflare-access';
 
 export default defineConfig({
-	integrations: [
-		cloudflareAccess({
-			teamDomain: 'https://example.cloudflareaccess.com',
-			issuer: 'https://example.cloudflareaccess.com',
-			audience: 'real-application-audience',
-		}),
-	],
+  integrations: [
+    cloudflareAccess({
+      teamDomain: 'https://example.cloudflareaccess.com',
+      issuer: 'https://example.cloudflareaccess.com',
+      audience: 'real-application-audience',
+    }),
+  ],
 });
 ```
 
