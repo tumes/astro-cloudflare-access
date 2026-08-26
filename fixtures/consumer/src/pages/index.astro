@@ -1,0 +1,14 @@
+---
+const identity: App.Locals['cloudflareAccess'] = Astro.locals.cloudflareAccess;
+const subject = identity?.sub ?? 'anonymous';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Cloudflare Access consumer fixture</title>
+	</head>
+	<body>
+		<p>{subject}</p>
+	</body>
+</html>

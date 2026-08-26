@@ -1,0 +1,61 @@
+{
+  "name": "@tumes/astro-cloudflare-access",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Astro integration for Cloudflare Access identity context",
+  "keywords": [
+    "utility",
+    "astro-integration",
+    "cloudflare-access"
+  ],
+  "homepage": "https://github.com/your-org/astro-cloudflare-access#readme",
+  "bugs": {
+    "url": "https://github.com/your-org/astro-cloudflare-access/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/astro-cloudflare-access.git"
+  },
+  "license": "MIT",
+  "author": "Robert Brandin",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "fixture:build": "node scripts/build-consumer.mjs",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "jose": "^6.2.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "astro": "7.2.4",
+    "typescript": "^5.9.0"
+  },
+  "peerDependencies": {
+    "astro": ">=7.0.0 <8.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
