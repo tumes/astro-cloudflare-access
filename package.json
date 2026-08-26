@@ -2,19 +2,19 @@
   "name": "@tumes/astro-cloudflare-access",
   "version": "0.0.1",
   "private": true,
-  "description": "Astro integration for Cloudflare Access identity context",
+  "description": "An Astro integration for Cloudflare Access identity context",
   "keywords": [
     "utility",
     "astro-integration",
     "cloudflare-access"
   ],
-  "homepage": "https://github.com/your-org/astro-cloudflare-access#readme",
+  "homepage": "https://github.com/tumes/astro-cloudflare-access",
   "bugs": {
-    "url": "https://github.com/your-org/astro-cloudflare-access/issues"
+    "url": "https://github.com/tumes/astro-cloudflare-access/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/astro-cloudflare-access.git"
+    "url": "git+https://github.com/tumes/astro-cloudflare-access.git"
   },
   "license": "MIT",
   "author": "Robert Brandin",
