@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import cloudflareAccess from '@tumes/astro-cloudflare-access';
+import cloudflareAccess from 'astro-cloudflare-access';
 
 export default defineConfig({
 	integrations: [

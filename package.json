@@ -1,5 +1,5 @@
 {
-  "name": "@tumes/astro-cloudflare-access",
+  "name": "astro-cloudflare-access",
   "version": "0.0.1",
   "description": "An Astro integration for Cloudflare Access identity context",
   "keywords": [
@@ -7,6 +7,9 @@
     "astro-integration",
     "cloudflare-access"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/tumes/astro-cloudflare-access",
   "bugs": {
     "url": "https://github.com/tumes/astro-cloudflare-access/issues"

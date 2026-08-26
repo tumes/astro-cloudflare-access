@@ -17,7 +17,7 @@ Anyway, that's why I put this together. I am am embittered greybeard so I _could
 ## Install
 
 ```sh
-npx astro add @tumes/astro-cloudflare-access
+npx astro add astro-cloudflare-access
 ```
 
 `astro add` will insert the default integration factory call into the Astro
@@ -26,12 +26,12 @@ config, but you must edit that call and supply real Cloudflare Access options.
 Manual installation and configuration:
 
 ```sh
-npm install @tumes/astro-cloudflare-access
+npm install astro-cloudflare-access
 ```
 
 ```js
 import { defineConfig } from 'astro/config';
-import cloudflareAccess from '@tumes/astro-cloudflare-access';
+import cloudflareAccess from 'astro-cloudflare-access';
 
 export default defineConfig({
 	integrations: [
